@@ -14,7 +14,7 @@ class App < Sinatra::Base
     @params[:sf]
     @params[:pf]
     @params[:c]
-    
+
     erb :team
   end
 
